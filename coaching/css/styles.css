@@ -1,0 +1,63 @@
+.masthead {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 35rem;
+	padding: 15rem 0;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("../assets/img/bg-masthead.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.masthead h1,
+.masthead .h1 {
+	font-family: "Dancing Script", "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 6rem;
+	line-height: 8rem;
+	background: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+.masthead h2,
+.masthead .h2 {
+	max-width: 20rem;
+	font-size: 1rem;
+}
+@media (min-width: 768px) {
+
+	.masthead h1,
+	.masthead .h1 {
+		font-size: 10rem;
+		line-height: 12rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.masthead {
+		height: 100vh;
+		padding: 0;
+	}
+
+	.masthead h1,
+	.masthead .h1 {
+		font-size: 12rem;
+		line-height: 16rem;
+	}
+
+	.masthead h2,
+	.masthead .h2 {
+		max-width: 30rem;
+		font-size: 1.25rem;
+	}
+}
+
+.about-section {
+	padding: 5rem 0 5rem;
+	background: var(--sofia-green);
+}
+
+.about-section p {
+	margin-bottom: 5rem;
+}
